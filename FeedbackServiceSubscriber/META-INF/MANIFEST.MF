@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FeedbackServiceSubscriber
+Bundle-SymbolicName: FeedbackServiceSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: feedbackservicesubscriber.ServiceActivator
+Bundle-Vendor: IT19752914
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: FeedbackServiceSubscriber
+Import-Package: feedbackservicepublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
